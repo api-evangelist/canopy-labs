@@ -1,7 +1,30 @@
 aid: canopy-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/canopy-labs.png
 name: Canopy Labs
-description: Canopy Labs is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Canopy Labs was a customer analytics and predictive marketing SaaS company
+  founded in 2012 in the Toronto, Ontario area (Thornhill) by Wojciech Gryc and
+  Jorge Escobedo, with an additional office in San Francisco. A Y Combinator
+  alumnus, it built machine-learning software that helped businesses model and
+  predict customer behavior, optimize purchase funnels, and personalize
+  marketing across the customer journey. The company raised seed funding from
+  investors including BDC Venture Capital's IT Fund and Valar Ventures. In 2018
+  Canopy Labs was acquired by Drop Technologies (the customer-loyalty app Drop),
+  after which the independent product, website (canopylabs.com), and any
+  developer/API surface were wound down. This profile is retained as a
+  historical company record; the entity no longer operates independently and
+  publishes no live API.
 url: https://raw.githubusercontent.com/api-evangelist/canopy-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,31 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Drop Technologies in 2018; independent operations and website (canopylabs.com) discontinued.
+x-acquired-by: Drop Technologies
+x-acquired-year: 2018
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Analytics
+- Customer Analytics
+- Predictive Analytics
+- Machine Learning
+- Marketing
+- SaaS
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
