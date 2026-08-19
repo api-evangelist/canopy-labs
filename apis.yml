@@ -36,7 +36,7 @@ x-status: defunct
 x-status-detail: Acquired by Drop Technologies in 2018; independent operations and website (canopylabs.com) discontinued.
 x-acquired-by: Drop Technologies
 x-acquired-year: 2018
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
