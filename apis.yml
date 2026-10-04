@@ -55,7 +55,7 @@ tags:
 - Analytics
 - Customer Analytics
 - Predictive Analytics
-- Machine-Learning
+- Machine Learning
 - Marketing
 - Software-as-a-Service
 - Acquired
@@ -70,6 +70,7 @@ tags_raw:
 - SaaS
 - Acquired
 - Defunct
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
